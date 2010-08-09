@@ -5,3 +5,4 @@ include /usr/share/cdbs/1/class/makefile.mk
 
 
 # Add here any variable or target overrides you need.
+DEB_PYTHON_SYSTEM = python-support
