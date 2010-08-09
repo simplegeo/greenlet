@@ -3,13 +3,13 @@ Section: python
 Priority: extra
 Maintainer: SimpleGeo Nerds <nerds@simplegeo.com>
 Uploaders: Paul Lathrop <paul@simplegeo.com>
-Build-Depends: cdbs, debhelper (>= 7), python-support, python-setuptools
+Build-Depends: cdbs, debhelper (>= 7), python-support, python-setuptools, python-dev
 Standards-Version: 3.8.3
 Homepage: http://pypi.python.org/pypi/greenlet
 
 Package: greenlet
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends}, python
 Description: Lightweight in-process concurrent programming
  The greenlet package is a spin-off of Stackless, a version of CPython that
  supports micro-threads called "tasklets". Tasklets run pseudo-concurrently
