@@ -9,7 +9,7 @@ Homepage: http://pypi.python.org/pypi/greenlet
 
 Package: greenlet
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}, python
+Depends: ${shlibs:Depends}, ${misc:Depends}, python, python-setuptools
 Description: Lightweight in-process concurrent programming
  The greenlet package is a spin-off of Stackless, a version of CPython that
  supports micro-threads called "tasklets". Tasklets run pseudo-concurrently
