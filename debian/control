@@ -1,4 +1,4 @@
-Source: greenlet
+Source: python-greenlet
 Section: python
 Priority: extra
 Maintainer: SimpleGeo Nerds <nerds@simplegeo.com>
@@ -7,7 +7,7 @@ Build-Depends: cdbs, debhelper (>= 7), python-support, python-setuptools, python
 Standards-Version: 3.8.4
 Homepage: http://pypi.python.org/pypi/greenlet
 
-Package: greenlet
+Package: python-greenlet
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}, python, python-setuptools
 Description: Lightweight in-process concurrent programming
